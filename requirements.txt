@@ -1,4 +1,10 @@
-numpy
-pandas
+numpy 
+pandas 
 scikit-learn
--e .
+matplotlib
+catboost
+xgboost
+numpy
+dill
+src
+#-e .

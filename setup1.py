@@ -1,4 +1,4 @@
-from setuptools import setup , find_packages
+from setuptools import find_packages,setup
 from typing import List
 
 HYPEN_E_DOT='-e .'
@@ -17,16 +17,12 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-name='Mlproject',
+name='mlproject',
 version='0.0.1',
 author='Veneel77',
 author_email='veneeldas77@gmail.com',
 packages=find_packages(),
 install_requires=get_requirements('requirements.txt')
+
 )
-
-
-
-
-
 
