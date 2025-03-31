@@ -6,5 +6,5 @@ catboost
 xgboost
 numpy
 dill
-src
+flask
 #-e .

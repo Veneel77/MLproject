@@ -21,7 +21,10 @@ name='Mlproject',
 version='0.0.1',
 author='Veneel77',
 author_email='veneeldas77@gmail.com',
-packages=find_packages(),
+packages=find_packages(where="src"), 
+#packages=["src", "src.submodule1", "src.submodule2"],
+
+
 install_requires=get_requirements('requirements.txt')
 )
 
